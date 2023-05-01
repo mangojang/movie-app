@@ -1,0 +1,15 @@
+{
+  "name": "movie-list-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel bukld ./index.html"
+  },
+  "author": "mangojang",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
