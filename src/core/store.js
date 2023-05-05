@@ -1,4 +1,4 @@
-export class Store {
+export default class Store {
     constructor(state){
         this.state = {}
         this.observers = {}
@@ -7,7 +7,9 @@ export class Store {
                 get: ()=> state[key],
                 set: (value)=> {
                     state[key] = value;
-                    this.observers[key].forEach(observer => observer(val));
+                    if(Array.isArray(this.observers[key])){
+                        this.observers[key].forEach(observer => observer(val));
+                    } 
                 }
             })
         }
