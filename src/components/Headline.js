@@ -1,9 +1,9 @@
-import Component from "../core/component";
+import Component from '../core/component';
 
 export default class Headline extends Component {
-    render(){
-        this.el.classList.add('headline')
-        this.el.innerHTML = /* html */`
+	render() {
+		this.el.classList.add('headline');
+		this.el.innerHTML = /* html */ `
             <h1>
                 <span>OMDb API</span><br/>
                 THE OPEN<br>
@@ -15,5 +15,5 @@ export default class Headline extends Component {
                 If you find this service useful, please consider making a one-time donation or become a patron.
             </p>
         `;
-    }
+	}
 }
