@@ -1,4 +1,5 @@
 import Component from '../core/component';
+import aboutStore from '../store/about';
 
 export default class TheFooter extends Component {
 	constructor() {
@@ -8,12 +9,13 @@ export default class TheFooter extends Component {
 	}
 
 	render() {
+		const { github, repository } = aboutStore.state;
 		this.el.innerHTML = /* html */ `
             <div>
-                <a href='https://github.com/mangojang/movie-app.git'>Github Repository</a>
+                <a href='${repository}'>Github Repository</a>
             </div>
             <div>
-                <a href='https://github.com/mangojang'>${new Date().getFullYear()} mangojang</a>
+                <a href='${github}'>${new Date().getFullYear()} mangojang</a>
             </div>
         `;
 	}
