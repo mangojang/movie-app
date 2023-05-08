@@ -21,6 +21,10 @@ export default class TheHeader extends Component {
 				],
 			},
 		});
+
+		window.addEventListener('popstate', () => {
+			this.render();
+		});
 	}
 
 	render() {
@@ -30,9 +34,13 @@ export default class TheHeader extends Component {
                 <ul>
                     ${this.state.menus
 											.map(menu => {
+												const href = menu.href.split('?')[0];
+												const hash = location.hash.split('?')[0];
+												const isActive = href === hash;
 												return /* html */ `
                             <li>
-                                <a href='${menu.href}'>${menu.name}</a>
+                                <a class ='${isActive ? 'active' : ''}'
+                                 href='${menu.href}'>${menu.name}</a>
                             </li>
                         `;
 											})
