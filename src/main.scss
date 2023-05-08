@@ -178,3 +178,40 @@ body {
 		display: none;
 	}
 }
+
+.the-movie {
+	color: var(--color-white-50);
+	display: flex;
+	gap: 70px;
+	.poster {
+		flex-shrink: 0;
+		--width: 500px;
+		width: var(--width);
+		height: calc(var(--width) * 3 / 2);
+		border-radius: 10px;
+		background-size: cover;
+		background-color: var(--color-area);
+	}
+	.specs {
+		flex-grow: 1;
+	}
+	.title {
+		font-size: 70px;
+		font-family: 'Oswald', sans-serif;
+		line-height: 1;
+		color: var(--color-white);
+		margin-bottom: 30px;
+	}
+	.labels {
+		color: var(--color-primary);
+		margin-bottom: 20px;
+	}
+	.plot {
+	}
+	h3 {
+		font-size: 20px;
+		font-family: 'Oswald', sans-serif;
+		color: var(--color-white);
+		margin: 24px 0 6px;
+	}
+}
