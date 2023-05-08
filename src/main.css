@@ -178,6 +178,11 @@ body {
 .movie-list .movies .movie .info .title {
   color: var(--color-white);
 }
+.movie-list .message {
+  color: var(--color-primary);
+  font-size: 20px;
+  text-align: center;
+}
 
 .view-more {
   width: 100%;
