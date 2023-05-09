@@ -4,12 +4,14 @@
 	"description": "",
 	"scripts": {
 		"dev": "parcel ./index.html",
-		"build": "parcel build ./index.html"
+		"build": "parcel build ./index.html",
+		"vercel": "vercel dev"
 	},
 	"author": "mangojang",
 	"license": "ISC",
 	"devDependencies": {
 		"parcel": "^2.8.3",
-		"prettier": "^2.8.8"
+		"prettier": "^2.8.8",
+		"vercel": "^29.1.1"
 	}
 }
