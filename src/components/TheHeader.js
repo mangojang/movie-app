@@ -1,4 +1,5 @@
 import Component from '../core/component';
+import aboutStore from '../store/about';
 
 export default class TheHeader extends Component {
 	constructor() {
@@ -28,6 +29,9 @@ export default class TheHeader extends Component {
 	}
 
 	render() {
+		const { name } = aboutStore.state;
+		const initial = name.split('/')[0][0];
+
 		this.el.innerHTML = /* html */ `
             <a href='#/' class="logo"><span>OMDbAPI</span>.com</a>
             <nav>
@@ -47,7 +51,9 @@ export default class TheHeader extends Component {
 											.join('')}
                 </ul>
             </nav>
-            <a href='#/about' class='user'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/330px-Hapus_Mango.jpg' alt='mangojang'></a>
+            <a href='#/about' class='user'>
+				<div class='avartar'><span>${initial}</span></div>
+			</a>
         `;
 	}
 }
