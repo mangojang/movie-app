@@ -10,8 +10,12 @@
 	"author": "mangojang",
 	"license": "ISC",
 	"devDependencies": {
+		"dotenv": "^16.0.3",
 		"parcel": "^2.8.3",
 		"prettier": "^2.8.8",
 		"vercel": "^29.1.1"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.10"
 	}
 }
