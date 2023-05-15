@@ -14,7 +14,7 @@ Vanila javascript , Typescript 2가지 버전으로 제작 하였고,  각 버�
 
 ** 본 사이트는 상업적인 목적이 없습니다. 
 
-![movie-app-main.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9534639-d9b5-4349-a9b1-3fa6dcac68ed/movie-app-main.jpg)
+![movie-app-main](https://github.com/mangojang/movie-app/assets/42363123/ce5c0581-2231-495e-b016-5794cdb0db3e)
 
 ## 배포 주소
 
@@ -69,24 +69,24 @@ npm run build
 - 영화 검색
     - 영화 검색 시, OMDbAPI 검색 값 호출 후, 목록 보여주기
     
-    ![movie-app-search1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aad174c4-8096-4bcd-af62-aca69203b55d/movie-app-search1.png)
+    ![movie-app-search1](https://github.com/mangojang/movie-app/assets/42363123/bdbaf419-6671-4c0d-bcfd-bf029e2e666f)
     
-    ![movie-app-search2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87964e4a-b2b1-4b24-9ddb-746a6a3a3b33/movie-app-search2.png)
+    ![movie-app-search2](https://github.com/mangojang/movie-app/assets/42363123/573ea88b-0597-4650-83c4-e98b3569ee02)
     
 - 영화 목록 더보기
     - 더보기 버튼 클릭 시,  OMDbAPI 호출을 기반으로 10개 목록 추가
     
-    ![movie-app-more1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e307a1a-75d8-4e15-a03a-26071031117d/movie-app-more1.png)
+    ![movie-app-more1](https://github.com/mangojang/movie-app/assets/42363123/45739f49-4ecc-4e8e-8bb3-fbd4314675a5)
     
-    ![movie-app-more2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da1065fa-bec8-4ca6-a860-5436c9129ddd/movie-app-more2.png)
+    ![movie-app-more2](https://github.com/mangojang/movie-app/assets/42363123/cde8d7e7-2f6f-450c-a17f-cefe231325ea)
     
 - 영화 세부 페이지
     - OMDbAPI 를 통해 영화 정보를 받아와 페이지 보여주기
     - 영화 정보가 보여지기 전 까지 스켈레톤 UI 적용
     
-    ![movie-app-movie1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af466d08-2bfe-4691-9d09-27d565a113be/movie-app-movie1.png)
+    ![movie-app-movie1](https://github.com/mangojang/movie-app/assets/42363123/f7b9bd61-9ce2-4470-be08-0307ac13a1cb)
     
-    ![movie-app-movie2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8316d57b-1876-49ba-826a-52637a777809/movie-app-movie2.png)
+    ![movie-app-movie2](https://github.com/mangojang/movie-app/assets/42363123/cbc958dc-2bc1-48d7-b11e-6f74761711d1)
     
 
 ## Contact
